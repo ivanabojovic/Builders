@@ -432,4 +432,12 @@ p {
     .earth .button-3:hover {
       cursor: pointer; }
 
+.counter .line-1 {
+  width: 77px;
+  height: 2px;
+  margin: 30px auto;
+  background-color: #ffc107; }
+.counter h2 {
+  font-weight: bold; }
+
 /*# sourceMappingURL=theme.css.map */

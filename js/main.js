@@ -5,6 +5,12 @@ $(document).ready(function () {
     $(document).ready(function () {
         $(".owl-carousel").owlCarousel();
     });
+    //counter up 
+
+    $('.achievements-value').counterUp({
+        delay: 10,
+        time: 1000
+    });
 
     //FILL ELEMENTS DEPENDS OF CATEGORY
     $('[data-category]').each(function () {
