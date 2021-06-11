@@ -413,4 +413,23 @@ p {
 .portfolio figure {
   margin-bottom: 0; }
 
+.earth {
+  padding: 100px 0; }
+  .earth .line-1 {
+    width: 97px;
+    height: 3px;
+    margin: 30px auto 0 0;
+    background-color: #ffc107; }
+  .earth h1, .earth h2 {
+    font-weight: bold; }
+  .earth h2 {
+    font-size: 25px; }
+  .earth h1 {
+    font-size: 3rem; }
+  .earth .button-3 {
+    padding: 10px 50px;
+    font-weight: bold; }
+    .earth .button-3:hover {
+      cursor: pointer; }
+
 /*# sourceMappingURL=theme.css.map */

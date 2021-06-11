@@ -1,0 +1,27 @@
+.earth {
+    padding:100px 0;
+    
+    .line-1 {
+        width:97px;
+        height:3px;
+        margin: 30px auto 0 0;
+        background-color: $warning;
+    }
+    h1,h2 {
+        font-weight:bold;
+    }
+    h2 {
+        font-size:25px;
+    }
+    h1 {
+        font-size:3rem;
+    }
+    .button-3 {
+        padding:10px 50px;
+        font-weight:bold;
+        &:hover {
+            cursor:pointer;
+        }
+    }
+}
+
