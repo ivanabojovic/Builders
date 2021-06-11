@@ -1,0 +1,26 @@
+.work {
+    .line-1 {
+        width:97px;
+        height:3px;
+        margin: 30px auto;
+        background-color: $warning;
+    }
+    h1,h2,h3 {
+        font-weight:$playfair-display-bold;
+    }
+    .work-hover-box {
+       .work-icon {
+        width:80px;
+        text-align:center;
+    }
+    h3 {
+        &:hover {
+            color:$warning;
+            cursor:pointer;
+            transition:0.5s linear;
+        }
+    }
+    }
+    
+    
+}

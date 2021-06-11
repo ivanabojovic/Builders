@@ -440,4 +440,19 @@ p {
 .counter h2 {
   font-weight: bold; }
 
+.work .line-1 {
+  width: 97px;
+  height: 3px;
+  margin: 30px auto;
+  background-color: #ffc107; }
+.work h1, .work h2, .work h3 {
+  font-weight: 700; }
+.work .work-hover-box .work-icon {
+  width: 80px;
+  text-align: center; }
+.work .work-hover-box h3:hover {
+  color: #ffc107;
+  cursor: pointer;
+  transition: 0.5s linear; }
+
 /*# sourceMappingURL=theme.css.map */
