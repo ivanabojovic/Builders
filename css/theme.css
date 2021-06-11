@@ -403,4 +403,14 @@ p {
   font-weight: bold;
   font-size: 1.3rem !important; }
 
+.portfolio h1, .portfolio h2 {
+  font-weight: bold; }
+.portfolio .line-1 {
+  width: 97px;
+  height: 3px;
+  margin: 30px auto;
+  background-color: #ffc107; }
+.portfolio figure {
+  margin-bottom: 0; }
+
 /*# sourceMappingURL=theme.css.map */

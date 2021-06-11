@@ -1,0 +1,14 @@
+.portfolio {
+    h1,h2 {
+        font-weight: bold;
+    }
+    .line-1 {
+        width:97px;
+        height:3px;
+        margin: 30px auto;
+        background-color: $warning;
+    }
+    figure {
+        margin-bottom:0;
+    }
+}
