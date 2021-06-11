@@ -342,5 +342,24 @@ p {
       right: 8%;
       top: 11%;
       display: block; } }
+.welcome .line-1 {
+  width: 97px;
+  height: 3px;
+  margin: 30px auto 0 0;
+  background-color: #ffc107; }
+.welcome .leader {
+  font-weight: italic;
+  color: #6c757d;
+  font-size: 25px;
+  letter-spacing: 1px; }
+.welcome h1, .welcome h2 {
+  font-weight: bold; }
+.welcome h1 {
+  font-size: 3rem; }
+.welcome .button-3 {
+  padding: 10px 50px;
+  font-weight: bold; }
+  .welcome .button-3:hover {
+    cursor: pointer; }
 
 /*# sourceMappingURL=theme.css.map */
