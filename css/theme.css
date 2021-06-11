@@ -362,4 +362,28 @@ p {
   .welcome .button-3:hover {
     cursor: pointer; }
 
+.pictures figure .description {
+  position: absolute;
+  bottom: 3px;
+  left: 10px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  padding: 0px;
+  display: none; }
+  .pictures figure .description .line-1 {
+    width: 97px;
+    height: 3px;
+    margin: 30px auto 0 0;
+    background-color: #ffc107; }
+  .pictures figure .description h2, .pictures figure .description p {
+    font-weight: bold; }
+.pictures figure:hover .description {
+  display: block;
+  cursor: pointer;
+  transition: 0.5s ease;
+  margin-right: 10px; }
+
+@media (min-width: 576px) {
+  .pictures figure .description {
+    padding: 20px; } }
+
 /*# sourceMappingURL=theme.css.map */

@@ -1,0 +1,41 @@
+.pictures {
+    figure {
+        .description {
+        position:absolute;
+        bottom:3px;
+        left:10px;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+        padding: 0px;
+        display:none;
+        .line-1 {
+            width:97px;
+            height:3px;
+            margin: 30px auto 0 0;
+            background-color: $warning;
+        }
+        h2,p {
+            font-weight:bold;
+        }
+
+    }
+    &:hover .description {
+        display:block;
+        cursor:pointer;
+        transition:0.5s ease;
+        margin-right:10px;
+        
+    }
+    }
+    
+}
+
+@media(min-width:576px) {
+    .pictures {
+        figure {
+            .description {
+                padding:20px;
+            }
+        }
+    }
+}
+
