@@ -1,0 +1,31 @@
+.services {
+    .line-1 {
+        width:97px;
+        height:3px;
+        margin: 30px auto;
+        background-color: $warning;
+    }
+    h1,h2 {
+        font-weight:bold;
+    }
+    h2 {
+        font-size:25px !important;
+    }
+    .services-icon {
+        img {
+            width:140px;
+            border:2px solid $warning;
+            padding:10px;
+            border-radius:5px;
+        }
+
+    }
+    .services-description {
+        h4 {
+           font-weight:bold; 
+           font-size:1.3rem !important;
+        } 
+    }
+    }
+
+

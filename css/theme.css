@@ -379,11 +379,28 @@ p {
 .pictures figure:hover .description {
   display: block;
   cursor: pointer;
-  transition: 0.5s ease;
+  transition: 0.3s linear;
   margin-right: 10px; }
 
 @media (min-width: 576px) {
   .pictures figure .description {
     padding: 20px; } }
+.services .line-1 {
+  width: 97px;
+  height: 3px;
+  margin: 30px auto;
+  background-color: #ffc107; }
+.services h1, .services h2 {
+  font-weight: bold; }
+.services h2 {
+  font-size: 25px !important; }
+.services .services-icon img {
+  width: 140px;
+  border: 2px solid #ffc107;
+  padding: 10px;
+  border-radius: 5px; }
+.services .services-description h4 {
+  font-weight: bold;
+  font-size: 1.3rem !important; }
 
 /*# sourceMappingURL=theme.css.map */
