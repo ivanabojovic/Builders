@@ -1,0 +1,51 @@
+.builders {
+    background-size:cover;
+    background-position: center center;
+    background-repeat:no-repeat;
+    padding:150px 50px;
+    .line-1 {
+        width:97px;
+        height:3px;
+        margin: 30px auto 0 0;
+        background-color: $warning;
+    }
+    h1 {
+        font-size:3.5rem;
+        font-weight:$playfair-display-bold;
+    }
+    .button-1, .button-2 {
+        padding:10px 30px;
+        font-weight: $playfair-display-bold;
+        margin-bottom:10px;
+        &:hover {
+            cursor:pointer;
+
+        }
+    }
+    .button-2 {
+        border:2px solid $white;
+        
+    }
+    .builder-picture {
+        display:none;
+
+    }
+}
+
+@media(min-width:992px) {
+    .builders {
+        padding:250px 120px;
+        .button-2 {
+            border:2px solid $white;
+            margin-left:10px;
+        }
+        .builder-picture {
+            position: absolute;
+            right: 8%;
+            top: 11%;
+            display:block;
+
+        } 
+
+    }
+}

@@ -5,6 +5,10 @@ html {
 img {
   max-width: 100%; }
 
+p {
+  font-family: "Playfair Display", serif;
+  font-weight: 400; }
+
 /*.img-holder{
     position: relative;
     background: #ccc url('assets/logo-small.png') no-repeat center center;
@@ -303,5 +307,40 @@ img {
 }
 
 */
+.builders {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 150px 50px; }
+  .builders .line-1 {
+    width: 97px;
+    height: 3px;
+    margin: 30px auto 0 0;
+    background-color: #ffc107; }
+  .builders h1 {
+    font-size: 3.5rem;
+    font-weight: 700; }
+  .builders .button-1, .builders .button-2 {
+    padding: 10px 30px;
+    font-weight: 700;
+    margin-bottom: 10px; }
+    .builders .button-1:hover, .builders .button-2:hover {
+      cursor: pointer; }
+  .builders .button-2 {
+    border: 2px solid #fff; }
+  .builders .builder-picture {
+    display: none; }
+
+@media (min-width: 992px) {
+  .builders {
+    padding: 250px 120px; }
+    .builders .button-2 {
+      border: 2px solid #fff;
+      margin-left: 10px; }
+    .builders .builder-picture {
+      position: absolute;
+      right: 8%;
+      top: 11%;
+      display: block; } }
 
 /*# sourceMappingURL=theme.css.map */
