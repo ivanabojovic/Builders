@@ -506,4 +506,29 @@ p {
   -moz-border-radius: 30px;
   border-radius: 30px; }
 
+.blog .line-1 {
+  width: 97px;
+  height: 3px;
+  margin: 30px auto;
+  background-color: #ffc107; }
+.blog h1, .blog h2 {
+  font-weight: 700; }
+.blog .blog-content .blog-heading:hover {
+  color: #ffc107;
+  cursor: pointer;
+  transition: 0.5s linear; }
+.blog .blog-content .blog-date {
+  color: #b3b3b3; }
+.blog .blog-content .blog-button {
+  color: #000;
+  font-weight: 700;
+  text-decoration: underline; }
+  .blog .blog-content .blog-button:hover {
+    color: #fff;
+    cursor: pointer;
+    background-color: #ffc107;
+    padding: 10px;
+    border-radius: 4px;
+    text-decoration: none; }
+
 /*# sourceMappingURL=theme.css.map */
