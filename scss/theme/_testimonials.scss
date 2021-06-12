@@ -18,6 +18,10 @@
         .testimonial-picture {
             width:120px;
             margin:0 auto;
+            img {
+                border:4px solid $warning;
+                border-radius:50%;
+            }
         }
         .testimonial-description {
             border:3px solid #b3b3b3;

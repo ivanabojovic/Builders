@@ -1,0 +1,36 @@
+.contact {
+    .button-2 {
+        border:2px solid $white;
+        padding:10px 20px;
+        font-weight:$playfair-display-bold;
+        &:hover {
+            background-color:$white;
+            color:$warning !important;
+            cursor:pointer;
+        }
+        
+    }
+    .form-control {
+    padding: 25px;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #fff;
+    background-color:$warning;
+    border:none;
+    border-bottom:2px solid $white;
+    background-clip: border-box;
+    border-radius: 0;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    &:focus {
+    color: #fff;
+    background-color: $warning;
+    border-bottom-color: #fff;
+    outline: 0;
+    box-shadow: none;
+}
+&::placeholder {
+    color:$white;
+}
+}
+}
