@@ -2,22 +2,21 @@ $(document).ready(function () {
 
 
     //OWL CAROUSEL
-    $(document).ready(function () {
-        $(".owl-carousel").owlCarousel();
-    });
+    if ($('.owl-carousel').length > 0) {
+
+
+        $('.testimonial-slider').owlCarousel({
+
+            items: 1,
+            loop: true,
+            autoplay: true,
+        });
+    }
     //counter up 
 
     $('.achievements-value').counterUp({
         delay: 10,
         time: 1000
-    });
-
-    //FILL ELEMENTS DEPENDS OF CATEGORY
-    $('[data-category]').each(function () {
-        var color = $(this).data('category');
-        $(this).find('.category-bg').css('background', color);
-        $(this).find('.category-border').css('border-color', color);
-        $(this).find('.category-color').css('color', color);
     });
 
 

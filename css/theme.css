@@ -439,6 +439,8 @@ p {
   background-color: #ffc107; }
 .counter h2 {
   font-weight: bold; }
+.counter .achievements-value {
+  letter-spacing: 1px; }
 
 .work .line-1 {
   width: 97px;
@@ -454,5 +456,54 @@ p {
   color: #ffc107;
   cursor: pointer;
   transition: 0.5s linear; }
+
+.testimonials .line-1 {
+  width: 97px;
+  height: 3px;
+  margin: 30px auto;
+  background-color: #ffc107; }
+.testimonials h1, .testimonials h5 {
+  font-weight: 700;
+  text-align: center; }
+.testimonials h2 {
+  text-align: center; }
+.testimonials .testimonial-content .testimonial-picture {
+  width: 120px;
+  margin: 0 auto; }
+.testimonials .testimonial-content .testimonial-description {
+  border: 3px solid #b3b3b3;
+  padding: 30px; }
+.testimonials .owl-carousel .owl-dots {
+  text-align: center; }
+.testimonials .owl-carousel span {
+  width: 15px;
+  height: 15px;
+  margin: 25px 10px;
+  background: #fff !important;
+  display: block;
+  -webkit-backface-visibility: visible;
+  -webkit-transition: opacity 200ms ease;
+  -moz-transition: opacity 200ms ease;
+  -ms-transition: opacity 200ms ease;
+  -o-transition: opacity 200ms ease;
+  transition: opacity 200ms ease;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px; }
+.testimonials .owl-carousel .active span {
+  width: 15px;
+  height: 15px;
+  margin: 25px 10px;
+  background: #ffc107 !important;
+  display: block;
+  -webkit-backface-visibility: visible;
+  -webkit-transition: opacity 200ms ease;
+  -moz-transition: opacity 200ms ease;
+  -ms-transition: opacity 200ms ease;
+  -o-transition: opacity 200ms ease;
+  transition: opacity 200ms ease;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px; }
 
 /*# sourceMappingURL=theme.css.map */
