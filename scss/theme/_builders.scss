@@ -24,7 +24,12 @@
     }
     .button-2 {
         border:2px solid $white;
-        
+        &:hover {
+            background:$warning;
+            color:$white !important;
+            cursor:pointer;
+            border-color:$warning;
+        }
     }
     .builder-picture {
         display:none;

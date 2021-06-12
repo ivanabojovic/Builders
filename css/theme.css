@@ -328,6 +328,11 @@ p {
       cursor: pointer; }
   .builders .button-2 {
     border: 2px solid #fff; }
+    .builders .button-2:hover {
+      background: #ffc107;
+      color: #fff !important;
+      cursor: pointer;
+      border-color: #ffc107; }
   .builders .builder-picture {
     display: none; }
 
